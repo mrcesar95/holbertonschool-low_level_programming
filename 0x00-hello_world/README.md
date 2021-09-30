@@ -1,4 +1,8 @@
-# Low-level programming 
+## Files
 
-Module of **Low-level programming** , carried out during **Full Stack Software Engineering studies** at **[Holberton School](https://www.holbertonschool.com/)**.
+All of the following files are scripts and programs written in C:
+
+| Filename         | Description                                                  |
+| ---------------- | ------------------------------------------------------------ |
+| `0-preprocessor` | Runs a C file through the preprocessor and saves the result into another file |
 
