@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isaplha - entry points
+ * _isalpha - entry point
  *
- * Description: Returns one if Cis a letter,or 0 if is not.
+ * Description: Returns one if C is a letter, or 0 if not.
  * @c: character to check
  * Return: void
  */
@@ -18,4 +18,3 @@ int _isalpha(int c)
 		return (0);
 	}
 }
-

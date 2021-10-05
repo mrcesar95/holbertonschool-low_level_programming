@@ -1,26 +1,27 @@
 #include "main.h"
 /**
- * print_sign - prints the sing of a number
- * @n: the int to check
- * Return: 1 and print + if n is greater than zero
- * 0 and prints 0 if n is zero
- * -1 and prints - if n is less than zero
+ * print_sign - entry point
+ *
+ * Description: Returns one if C is a letter, or 0 if not.
+ * @n: character to check
+ * Return: void
  */
 
-int print_sing(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
-	} else if (n == 0)
+	}
+	else if (n == 0)
 	{
-		_putchar(48);
+		_putchar('0');
 		return (0);
-	} else if (n < 0)
+	}
+	else
 	{
 		_putchar('-');
+		return (-1);
 	}
-	return (-1);
-}
-
+	}
