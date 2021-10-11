@@ -2,10 +2,10 @@
 
 /**
 *_puts - entry point
-
-@str : Ponit to the string
-
-
+*
+*@str : Ponit to the string
+*
+*
 *Return: Length of string
 */
 
