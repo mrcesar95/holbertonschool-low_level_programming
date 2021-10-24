@@ -11,4 +11,3 @@ All of the following files are scripts and programs written in C:
 | `libmy.a, main.h`       | Static library that contains a lot of functions              |
 | `create_static_lib.sh` | Script that creates a static library called
 | `main.h`          | Header file that contains all the prototypes of the used functions |
-
